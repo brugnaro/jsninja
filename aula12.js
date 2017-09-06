@@ -1,34 +1,17 @@
-//objetos
-//mutaveis
-//manipulados por referencia
-/*var obj={
-    prop1:'prop1',
-    prop2:'prop2'
-}
+//objetos mutaveis
+//objetos manipulados por referencia
 
-var obj2={
-    prop1:'prop1',
-    prop2:'prop2'
-}
+//criando objetos:
+//por meio de literais;
+//como construtor(new);
 
-console.log(obj.prop1='propriedade1')
-console.log(delete obj.prop1)
-console.log(obj.prop1='prop1')
-console.log(obj2===obj)
+//com Object.create() -> propriedade chamada prototype
+//herancao de objetos -> encadeamento de prototipos
+//cada objeto herdam de Object.prototype somente ele mesmo nao herda
 
-var objCopy=obj;
-console.log(objCopy.prop1)*/
+//object.keys
+//obj.isPrototypeOf() -> verifica se objeto e prototipo de algum outro
+//JSON.stringify(obj)
+//JSON.parse(str)
 
-//criando objetos
-//literais var obj={}
-//construtor var newObj=new Object();
-
-//objetos tem um propriedade chamada prototype
-//prototipo do objeto que esta sendo criado
-//cada objeto que e criado herda de Object.prototype
-var obj={
-    prop1:'prop1',
-    prop2:'prop2'
-}
-console.log(Object.prototype)
-console.log(obj)
+//Arrays
